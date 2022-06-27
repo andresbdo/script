@@ -1,6 +1,6 @@
+console.log(document.currentScript, "a");    
+var a = document.querySelector(".status-content");
 
-    var a = document.querySelector(".status-content");
-console.log(document.currentScript);
     if (a) {
         window.setTimeout(() => {
             var m = document.querySelectorAll(".m-bottom-none.m-top-quarter")[document.querySelectorAll(".m-bottom-none.m-top-quarter").length - 1]
