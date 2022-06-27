@@ -14,7 +14,8 @@
                 i.setAttribute('src', 'https://svgshare.com/i/iHw.svg');
                 i.setAttribute('style', 'margin-right:10px;');
                 var t = document.querySelectorAll(".text-right.table-price")[document.querySelectorAll(".text-right.table-price").length - 1].innerHTML.replace('$', '').replace('.', '').replace(',', '.');
-                var e = document.currentScript.getAttribute('id');
+                console.log(document.currentScript)
+                var e = 12345;
                 var s = window.btoa(unescape(encodeURIComponent(e + '**' + t)));
                 b.appendChild(i);
                 c.appendChild(d);
