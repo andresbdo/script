@@ -1,9 +1,8 @@
 var e = document.currentScript.src.split('=')[1];    
 var a = document.querySelector(".status-content");
-
-    if (a) {
-        window.setTimeout(() => {
-            var m = document.querySelectorAll(".m-bottom-none.m-top-quarter")[document.querySelectorAll(".m-bottom-none.m-top-quarter").length - 1]
+if (a) {
+    window.setTimeout(() => {
+        var m = document.querySelectorAll(".m-bottom-none.m-top-quarter")[document.querySelectorAll(".m-bottom-none.m-top-quarter").length - 1]
             if (m.innerHTML.toLowerCase().includes('cripto') || m.innerHTML.toLowerCase().incldudes('crypto')){
                 var b = document.createElement("button");
                 var i = document.createElement("img");
@@ -26,5 +25,5 @@ var a = document.querySelector(".status-content");
                 );
                 a.insertAdjacentElement('beforeend', b);
             }
-        }, 1000)
-    }
+    }, 1000)
+}
